@@ -26,7 +26,7 @@ public class SpringOpenshiftApplication {
 
 	String bot = "<script>\n"
 			+ "  window.watsonAssistantChatOptions = {\n"
-			+ "      integrationID: \"b31cf5b7-630d-48ea-ac62-32dcd087015a\", // The ID of this integration.\n"
+			+ "      integrationID: \"c77c02dc-e753-42d1-b6ab-36e68c29d778\", // The ID of this integration.\n"
 			+ "      region: \"us-south\", // The region your integration is hosted in.\n"
 			+ "      serviceInstanceID: \"0f11ab2c-8e3d-4eb2-832a-7805b64e303f\", // The ID of your service instance.\n"
 			+ "      onLoad: function(instance) { instance.render(); }\n"
