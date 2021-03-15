@@ -1,4 +1,4 @@
-//package com.java.openshift.demo;
+package com.java.openshift.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
