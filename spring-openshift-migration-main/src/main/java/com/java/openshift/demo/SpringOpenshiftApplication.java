@@ -25,18 +25,18 @@ public class SpringOpenshiftApplication {
 	// 		+ "</script>";
 
 	String bot = "<script>\n"
-			+ "	window.watsonAssistantChatOptions = {\n"
-			+ " 	integrationID: \"b31cf5b7-630d-48ea-ac62-32dcd087015a\", // The ID of this integration.\n"
-			+ " 	region: \"us-south\", // The region your integration is hosted in.\n"
-			+ " 	serviceInstanceID: \"0f11ab2c-8e3d-4eb2-832a-7805b64e303f\", // The ID of your service instance.\n"
-			+ " 	onLoad: function(instance) { instance.render(); }\n"
-			+ " };\n"
-			+ " setTimeout(function(){\n"
-			+ " 	const t=document.createElement('script');\n"
-			+ " 	t.src=\"https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js\";\n"
-			+ " 	document.head.appendChild(t);\n"
-			+ " });\n"
-			+ " </script>";
+			+ "  window.watsonAssistantChatOptions = {\n"
+			+ "      integrationID: \"b31cf5b7-630d-48ea-ac62-32dcd087015a\", // The ID of this integration.\n"
+			+ "      region: \"us-south\", // The region your integration is hosted in.\n"
+			+ "      serviceInstanceID: \"0f11ab2c-8e3d-4eb2-832a-7805b64e303f\", // The ID of your service instance.\n"
+			+ "      onLoad: function(instance) { instance.render(); }\n"
+			+ "    };\n"
+			+ "  setTimeout(function(){\n"
+			+ "    const t=document.createElement('script');\n"
+			+ "    t.src=\"https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js\";\n"
+			+ "    document.head.appendChild(t);\n"
+			+ "  });\n"
+			+ "</script>";
 	
 	
 	@GetMapping("/")
